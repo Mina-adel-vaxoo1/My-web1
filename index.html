@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Mina Adel is an Apple-native indie designer/developer building minimal iOS, SwiftUI, and AppKit interfaces."
+    >
+    <title>Mina Adel - Weirdly Useful Native Things</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Mina Adel home">
+        <span class="brand-mark">MA</span>
+        <span class="brand-name">Mina Adel</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#work">work</a>
+        <a href="#tools">tools</a>
+        <a href="#notes">notes</a>
+      </nav>
+      <a class="availability" href="#contact">weekend freelance</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Apple-native indie designer/developer</p>
+          <h1>I design weirdly useful native things.</h1>
+          <p class="ego-note">I've worked with hundreds of people. Maybe 0.5% had taste.</p>
+          <p class="intro">
+            I'm Mina Adel, a designer-minded iOS developer with 7 years of experience building apps,
+            SwiftUI prototypes, and minimal interfaces that don't scream.
+          </p>
+          <p class="hero-badge">
+            No Electron. No VC-backed productivity circus. No bloated apps on my machine.
+          </p>
+          <div class="hero-actions" aria-label="Page sections">
+            <a href="#work">see prototypes</a>
+            <a href="#tools">inspect bench</a>
+          </div>
+        </div>
+
+        <div class="playfield" aria-label="Draggable portfolio stickers">
+          <div
+            class="draggable sticker cat-sticker float-a"
+            style="--left: 3%; --top: 9%; --rot: -7deg"
+            role="img"
+            aria-label="Draggable cat sticker"
+            tabindex="0"
+          >
+            <svg viewBox="0 0 150 120" aria-hidden="true">
+              <path class="paper" d="M21 37 42 15l18 18 32-1 18-17 20 25 3 42c1 20-16 33-55 34-38 1-59-10-60-30Z"/>
+              <path d="M45 57c4-6 14-7 18-1M91 56c4-6 14-5 18 1" class="line"/>
+              <path d="m71 71 9 7 10-8" class="line"/>
+              <path d="M61 86c10 8 29 8 40-1" class="line"/>
+              <path d="M32 75 7 68M34 85 11 91M118 75l24-7M116 86l23 8" class="line"/>
+            </svg>
+            <span>tiny native supervisor</span>
+          </div>
+
+          <div
+            class="draggable sticker skull-sticker float-b"
+            style="--left: 73%; --top: 5%; --rot: 9deg"
+            role="img"
+            aria-label="Draggable skull doodle"
+            tabindex="0"
+          >
+            <svg viewBox="0 0 118 125" aria-hidden="true">
+              <path class="paper" d="M56 4c31 0 54 20 54 52 0 20-8 34-24 42l-4 19H34l-3-18C14 90 6 75 6 56 6 25 27 4 56 4Z"/>
+              <circle cx="39" cy="55" r="11" class="ink-fill"/>
+              <circle cx="75" cy="55" r="11" class="ink-fill"/>
+              <path d="m56 68-8 15h17Z" class="ink-fill"/>
+              <path d="M35 96h43M44 96v17M57 96v17M70 96v17" class="line"/>
+            </svg>
+            <span>rip bloated UI</span>
+          </div>
+
+          <div
+            class="draggable sushi-sticker float-c"
+            style="--left: 61%; --top: 72%; --rot: -11deg"
+            role="img"
+            aria-label="Draggable sushi sticker"
+            tabindex="0"
+          >
+            <span class="sushi-rice"></span>
+            <span class="sushi-fish"></span>
+            <span class="sushi-seed seed-a"></span>
+            <span class="sushi-seed seed-b"></span>
+          </div>
+
+          <div
+            class="draggable sketch-object float-b"
+            style="--left: 24%; --top: 67%; --rot: 8deg"
+            role="img"
+            aria-label="Draggable Sketch diamond inspired object"
+            tabindex="0"
+          >
+            <span class="diamond-top"></span>
+            <span class="diamond-bottom"></span>
+            <strong>Sketch</strong>
+          </div>
+
+          <div
+            class="draggable retro-mac float-a"
+            style="--left: 42%; --top: 7%; --rot: 2deg"
+            aria-label="Draggable old Mac mockup"
+            tabindex="0"
+          >
+            <div class="mac-face">
+              <div class="mac-screen">
+                <span>hello.swift</span>
+                <i></i>
+              </div>
+              <div class="mac-slot"></div>
+            </div>
+            <div class="mac-foot"></div>
+          </div>
+
+          <div
+            class="draggable iphone-wire float-c"
+            style="--left: 5%; --top: 55%; --rot: 5deg"
+            aria-label="Draggable iPhone wireframe"
+            tabindex="0"
+          >
+            <div class="phone-notch"></div>
+            <div class="wire-row wide"></div>
+            <div class="wire-row"></div>
+            <div class="wire-grid">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div
+            class="draggable swift-card float-b"
+            style="--left: 64%; --top: 38%; --rot: 4deg"
+            aria-label="Draggable SwiftUI component card"
+            tabindex="0"
+          >
+            <div class="component-top">
+              <span></span>
+              <b>SwiftUI</b>
+            </div>
+            <div class="component-pill">ButtonStyle()</div>
+            <div class="component-slider"><i></i></div>
+          </div>
+
+          <div
+            class="draggable mac-window float-a"
+            style="--left: 31%; --top: 36%; --rot: -3deg"
+            aria-label="Draggable macOS window mockup"
+            tabindex="0"
+          >
+            <div class="window-bar"><span></span><span></span><span></span></div>
+            <div class="window-body">
+              <b>native-panel</b>
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+
+          <div
+            class="draggable pixel-cursor float-c"
+            style="--left: 83%; --top: 59%; --rot: -13deg"
+            role="img"
+            aria-label="Draggable pixel cursor"
+            tabindex="0"
+          >
+            <span></span>
+          </div>
+
+          <div
+            class="draggable sticky-note note-a"
+            style="--left: 16%; --top: 31%; --rot: -8deg"
+            tabindex="0"
+          >
+            less UI<br>more nerve
+          </div>
+          <div
+            class="draggable sticky-note note-b"
+            style="--left: 77%; --top: 28%; --rot: 6deg"
+            tabindex="0"
+          >
+            weekend<br>builds only
+          </div>
+          <p class="annotation ann-a">drag the evidence</p>
+          <p class="annotation ann-b">native or nothing</p>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Native stack ticker">
+        <div class="ticker-track">
+          <span>Sketch</span>
+          <span>SwiftUI</span>
+          <span>AppKit</span>
+          <span>Xcode</span>
+          <span>Nova Editor</span>
+          <span>Panic tools</span>
+          <span>SF Symbols</span>
+          <span>TestFlight</span>
+          <span>Human Interface Guidelines</span>
+          <span>Sketch</span>
+          <span>SwiftUI</span>
+          <span>AppKit</span>
+          <span>Xcode</span>
+          <span>Nova Editor</span>
+        </div>
+      </section>
+
+      <section class="section-heading" data-reveal>
+        <p class="eyebrow">Selected messes, made quiet</p>
+        <h2>Prototype work with a pulse.</h2>
+      </section>
+
+      <section class="projects" id="work">
+        <article class="project project-habit" data-reveal>
+          <div class="project-copy">
+            <span class="project-index">01</span>
+            <h3>SwiftUI Habit Tracker</h3>
+            <p>A calm habit tracker prototype built around speed, frictionless logging, and zero motivational nonsense.</p>
+          </div>
+          <div class="prototype preview-phone" aria-hidden="true">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <div class="phone-header">
+                  <span>Today</span>
+                  <b>4/6</b>
+                </div>
+                <div class="habit-list">
+                  <i class="done"></i>
+                  <i class="done"></i>
+                  <i></i>
+                  <i class="done"></i>
+                </div>
+                <div class="quiet-button">log without drama</div>
+              </div>
+            </div>
+            <p class="tiny-note">tap target sanity</p>
+          </div>
+        </article>
+
+        <article class="project project-finance" data-reveal>
+          <div class="project-copy">
+            <span class="project-index">02</span>
+            <h3>Minimal Finance Dashboard</h3>
+            <p>A native-feeling finance dashboard where the numbers behave and the interface doesn't scream.</p>
+          </div>
+          <div class="prototype preview-window" aria-hidden="true">
+            <div class="dashboard-window">
+              <div class="window-bar"><span></span><span></span><span></span></div>
+              <div class="dashboard-body">
+                <div class="money-line">
+                  <b>$8,420</b>
+                  <span>calm month</span>
+                </div>
+                <div class="chart-bars">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <div class="ledger-row"><span>Rent</span><b>settled</b></div>
+                <div class="ledger-row"><span>Tools</span><b>tiny</b></div>
+              </div>
+            </div>
+            <p class="tiny-note">numbers first, chrome last</p>
+          </div>
+        </article>
+
+        <article class="project project-lab" data-reveal>
+          <div class="project-copy">
+            <span class="project-index">03</span>
+            <h3>Weekend Prototype Lab</h3>
+            <p>Small iOS interactions, strange UI ideas, and native experiments built because normal apps are boring.</p>
+          </div>
+          <div class="prototype preview-components" aria-hidden="true">
+            <div class="floating-component comp-a">
+              <span></span>
+              <b>HoldButton</b>
+              <i></i>
+            </div>
+            <div class="floating-component comp-b">
+              <b>ElasticSheet</b>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="floating-component comp-c">
+              <b>OddToggle</b>
+              <em></em>
+            </div>
+            <p class="tiny-note">micro-interactions deserve taste</p>
+          </div>
+        </article>
+
+        <article class="project project-notes" data-reveal>
+          <div class="project-copy">
+            <span class="project-index">04</span>
+            <h3>Native Notes Playground</h3>
+            <p>A minimal Apple-native notes concept focused on writing, speed, calm structure, and obsessive details.</p>
+          </div>
+          <div class="prototype preview-notes" aria-hidden="true">
+            <div class="notes-shell">
+              <aside>
+                <span></span>
+                <span></span>
+                <span></span>
+              </aside>
+              <div class="editor">
+                <b>Plain text has a spine.</b>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+            </div>
+            <p class="tiny-note">no fake brain sidebar</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="tools-section" id="tools">
+        <div class="tools-copy" data-reveal>
+          <p class="eyebrow">The bench</p>
+          <h2>Small, native, sharp.</h2>
+          <p>
+            Mina works with tools that respect the machine. If the app needs a loading spinner
+            to open a text field, it has already lost the argument.
+          </p>
+        </div>
+        <div class="tool-grid" data-reveal>
+          <span>Sketch</span>
+          <span>SwiftUI</span>
+          <span>AppKit</span>
+          <span>Xcode</span>
+          <span>Nova Editor</span>
+          <span>Panic tools</span>
+          <span>SF Symbols</span>
+          <span>TestFlight</span>
+          <span>macOS Human Interface Guidelines</span>
+        </div>
+        <p class="anti-statement" data-reveal>
+          No Electron. No VC-backed apps. No bloated productivity circus on my machine.
+        </p>
+      </section>
+
+      <section class="notes-section" id="notes">
+        <div class="note-panel" data-reveal>
+          <h2>Design notes from the native bunker.</h2>
+          <div class="notes-list">
+            <p><b>Minimal is not empty.</b> It is what remains after the panic gets deleted.</p>
+            <p><b>Native apps should feel local.</b> Respect menus, focus states, latency, and platform memory.</p>
+            <p><b>Weekend freelance only.</b> Small scopes, real prototypes, no committee-flavored decks.</p>
+          </div>
+        </div>
+        <div class="beliefs" data-reveal>
+          <span>7 years iOS</span>
+          <span>SwiftUI prototypes</span>
+          <span>AppKit when it matters</span>
+          <span>taste audits</span>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" data-reveal>
+        <p class="eyebrow">Tiny availability window</p>
+        <h2>Bring a native app, a prototype, or a UI that needs restraint.</h2>
+        <p>
+          Mina still freelances on weekends for focused Apple-native work: iOS prototypes,
+          interface cleanup, macOS utilities, and small products that do not need a new religion.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Mina Adel</span>
+      <span>designed for native mischief</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
